@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		90DFA2FE226F7BB600B569CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90DFA2FD226F7BB600B569CE /* main.cpp */; };
+		90DFA306226F7C0100B569CE /* AES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90DFA304226F7C0100B569CE /* AES.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		90DFA2FA226F7BB600B569CE /* AES(RenHong) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AES(RenHong)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DFA2FD226F7BB600B569CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90DFA304226F7C0100B569CE /* AES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AES.cpp; sourceTree = "<group>"; };
+		90DFA305226F7C0100B569CE /* AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		90DFA2FC226F7BB600B569CE /* AES(RenHong) */ = {
 			isa = PBXGroup;
 			children = (
+				90DFA304226F7C0100B569CE /* AES.cpp */,
+				90DFA305226F7C0100B569CE /* AES.h */,
 				90DFA2FD226F7BB600B569CE /* main.cpp */,
 			);
 			path = "AES(RenHong)";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DFA2FE226F7BB600B569CE /* main.cpp in Sources */,
+				90DFA306226F7C0100B569CE /* AES.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
